@@ -14,6 +14,10 @@ Then install in your local machine this repo
 ```bash
 git clone https://github.com/papu163/obs-hyprland-helper.git
 ```
+Make the shell files executables
+```bash
+chmod +x ~/obs-hyprland-helper/helper.sh && chmod +x ~/obs-hyprland-helper/stop.sh
+```
 
 Then we will create special binds in our hyprland.conf or the conf you are using right now for your binds in hyprland
 ```conf
