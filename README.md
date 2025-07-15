@@ -12,4 +12,14 @@ sudo pacman -S wtype
 ```
 Then install in your local machine this repo
 ```bash
-git clone 
+git clone https://github.com/papu163/obs-hyprland-helper.git
+```
+
+Then we will create special binds in our hyprland.conf or the conf you are using right now for your binds in hyprland
+```conf
+#record
+bind = MODS, key, exec, ~/obs-hyprland-helper/helper.sh
+#stop recording
+bind = MODS, key, exec, ~/obs-hyprland-helper/stop.sh
+```
+You can add more shell files to more hotkeys by following the structure of helper.sh and stop.sh 
